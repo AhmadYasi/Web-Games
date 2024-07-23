@@ -1,4 +1,5 @@
 ### Web Games
+***
 
 **Ghazi 3D** is a clone of the classic Chrome browser dinosaur game.
 
