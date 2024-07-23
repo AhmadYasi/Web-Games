@@ -13,3 +13,7 @@
 
 **Dice Battle** is a verses game against the PC, you guess a number and then roll the dices if they match you win if they dont you lose.
 
+![Screenshot 2024-07-23 154212](https://github.com/user-attachments/assets/c5946452-552a-4e4b-a268-dba0ac49117d)
+
+
+***
