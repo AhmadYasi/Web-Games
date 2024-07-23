@@ -1,6 +1,6 @@
 <style>
   .game-screenshot {
-    max-width: 300px; /* Adjust this value as needed */
+    max-width: 200px; /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
   }
 </style>
