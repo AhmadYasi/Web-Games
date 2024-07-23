@@ -1,9 +1,4 @@
-<style>
-  .game-screenshot {
-    max-width: 200px; /* Adjust this value as needed */
-    height: auto; /* Maintain aspect ratio */
-  }
-</style>
+
 
 ### Web Games
 ***
@@ -19,6 +14,6 @@
 
 **Dice Battle** is a verses game against the PC, you guess a number and then roll the dices if they match you win if they dont you lose.
 
-<img src="https://github.com/user-attachments/assets/c5946452-552a-4e4b-a268-dba0ac49117d" alt="Screenshot 2024-07-23 154212" class="game-screenshot" />
+<img style="max-width: 200px" src="https://github.com/user-attachments/assets/c5946452-552a-4e4b-a268-dba0ac49117d" alt="Screenshot 2024-07-23 154212" class="game-screenshot" />
 
 ***
