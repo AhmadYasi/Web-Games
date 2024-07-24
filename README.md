@@ -16,7 +16,7 @@
 
 ***
 
-**TicTacToe** is a verses game against another player, the rules are simple, and whomever wins the battle will be the king or sultan of the holyland (Palestine).
+**TicTacToe** is a verses game against another player, the rules are simple, and whomever wins the battle will be the king or sultan of the holyland (Palestine). Each player will have three unit in their armies. The archers, cavelry, and swordsman. They represnt the health of an army the more you lose the more you are close to be beaten.
 
 <img src="https://github.com/user-attachments/assets/763cc0ef-ed2f-44c5-92c5-9fb9e5295646" alt="Screenshot 2024-07-24 151649" width="800">
 
