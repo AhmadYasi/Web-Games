@@ -18,6 +18,6 @@
 
 **TicTacToe** is a verses game against another player, the rules are simple, and whomever wins the battle will be the king or sultan of the holyland (Palestine).
 
-![Screenshot 2024-07-24 151649](https://github.com/user-attachments/assets/763cc0ef-ed2f-44c5-92c5-9fb9e5295646)
+<img src="https://github.com/user-attachments/assets/763cc0ef-ed2f-44c5-92c5-9fb9e5295646" alt="Screenshot 2024-07-24 151649" width="800">
 
 ***
