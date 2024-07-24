@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.leftman, .rightman {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 20px;
+    position: relative;
+}
+
+.leftman::before, .rightman::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.leftman::before {
+    background-color: rgba(0, 0, 255, 0.3); /* Dimmed blue */
+}
+
+.rightman::before {
+    background-color: rgba(255, 255, 0, 0.3); /* Dimmed yellow */
+}
+
+.leftman *, .rightman * {
+    position: relative;
+    z-index: 1;
+}
+
+.centergame {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/medieval-background.png');
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #8B4513;
+    border-image: url('img/medieval-border.png') 30 round;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 3px solid yellow;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.image.defeated {
+    filter: brightness(70%) sepia(100%) saturate(300%) hue-rotate(0deg);
+}
+
+.image.victorious {
+    border: 5px solid #4CAF50;
+    box-shadow: 0 0 15px #4CAF50;
+}
+
+h1, h2 {
+    font-family: 'MedievalFont', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.unit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.unit-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.unit-icon:hover {
+    transform: scale(1.2);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #D2B48C;
+    border: 2px solid #8B4513;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MedievalFont', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #4A0E0E;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.cell:hover {
+    background-color: #E6CCB3;
+}
+
+#status {
+    font-family: 'MedievalFont', serif;
+    font-size: 24px;
+    color: #4A0E0E;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 20px;
+}
+
+#restart {
+    font-family: 'MedievalFont', serif;
+    background-color: #8B4513;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#restart:hover {
+    background-color: #A0522D;
+}
+
+@font-face {
+    font-family: 'MedievalFont';
+    src: url('fonts/medieval-font.woff2') format('woff2');
+}
