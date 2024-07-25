@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Rock, Paper, Scissors</title>
+    </head>
+    <body>
+        <div id="cpu">
+            <img id="cpu-choice" src="img/question.png" alt="CPU Choice">
+        </div>
+
+        <div id="result"></div>
+
+        <div class="buttons-container">
+            <button id="shake" onclick="playGame()">Shake it</button>
+            <button id="restart" onclick="restart()">Restart</button>
+        </div>
+        
+        <div id="player">
+            <button onclick="selectChoice('paper')"><img src="img/paper.png" alt="Paper"></button>
+            <button onclick="selectChoice('rock')"><img src="img/rock.png" alt="Rock"></button>
+            <button onclick="selectChoice('scissors')"><img src="img/scissors.png" alt="Scissors"></button>
+        </div>
+        
+        <script src="function.js"></script>
+    </body>
+</html>
