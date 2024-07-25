@@ -21,3 +21,8 @@
 <img src="https://github.com/user-attachments/assets/763cc0ef-ed2f-44c5-92c5-9fb9e5295646" alt="Screenshot 2024-07-24 151649" width="800">
 
 ***
+
+**Paper, Scissor, Rock** is a cpu vs player game in which you can choose one of the three and fight it off with the cpu.
+![i]()
+
+<img src="https://github.com/user-attachments/assets/eef547c3-98cc-44c1-9405-4611256ad786" alt="i" width="800">
